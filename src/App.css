@@ -1,0 +1,25 @@
+#root {
+  margin: 0 auto;
+}
+
+.img-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Media queries for larger screens */
+@media (min-width: 576px) {
+  /* Styles for small devices */
+}
+
+@media (min-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media (min-width: 992px) {
+  /* Styles for larger screens (laptops and desktops) */
+}
+
+@media (min-width: 1200px) {
+  /* Styles for extra large screens */
+}
