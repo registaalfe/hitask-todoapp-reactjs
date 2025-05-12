@@ -7,6 +7,89 @@
   height: 40px;
 }
 
+.img-empty-message {
+  width: 180px;
+  height: 164px;
+}
+
+.button {
+  background-color: #0A7CFF !important;
+  border: 0px !important;
+}
+
+.input {
+  background-color: #ffffff38 !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
+  padding: 0.6rem 0.75rem !important;
+  color: white !important;
+}
+
+.input-checkbox {
+  width: 326px !important;
+  background-color: #545F71 !important;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.info_empty {
+  margin-top: 64px !important;
+}
+
+.illustration_empty {
+  margin-top: 24px !important;
+}
+
+.span-button {
+  background-color: #0A7CFF !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.task-item {
+  background-color: #5f6a7a;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.task-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.task-label input[type="checkbox"] {
+  margin: 0;
+}
+
+.task-label span {
+  user-select: text;
+}
+
+.checkbox-custom {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid white;
+  accent-color: #0f7aff;
+}
+
+.task-completed span {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task-completed {
+  opacity: 0.9;
+}
+
 /* Media queries for larger screens */
 @media (min-width: 576px) {
   /* Styles for small devices */
@@ -17,7 +100,10 @@
 }
 
 @media (min-width: 992px) {
-  /* Styles for larger screens (laptops and desktops) */
+  /* .lg-screens {
+    padding-right: 18.5rem !important;
+    padding-left: 18.5rem !important;
+  } */
 }
 
 @media (min-width: 1200px) {

@@ -26,8 +26,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #010118 !important;
-  background: radial-gradient(58% 61.25% at 50% -16%, #0E7BF8, #010118) !important;
+  background: radial-gradient(58% 41% at 50% -16%, #0E7BF8 -10%, #010118 100%) !important;
 }
 
 h1 {
