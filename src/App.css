@@ -2,6 +2,8 @@
   margin: 0 auto;
 }
 
+
+
 .img-icon {
   width: 40px;
   height: 40px;
@@ -43,8 +45,10 @@
 
 .span-button {
   background-color: #0A7CFF !important;
-  width: 20px !important;
-  height: 20px !important;
+}
+
+.span-button-completed {
+  background-color: #0A7CFF !important;
 }
 
 .task-item {
@@ -81,7 +85,7 @@
   accent-color: #0f7aff;
 }
 
-.task-completed span {
+.task-completed .form-control {
   text-decoration: line-through;
   opacity: 0.7;
 }
@@ -90,9 +94,34 @@
   opacity: 0.9;
 }
 
+.deleteBtn {
+  color: white;
+  cursor: pointer !important;
+}
+
+.deleteBtn:hover {
+  color: #F74B66;
+  cursor: pointer !important;
+}
+
+.form-list-task {
+  background-color: #5f6a7a !important;
+  border: none !important;
+  color: white !important;
+  height: 0 !important;
+  min-height: 26px !important;
+}
+
+.form-list-task:focus {
+  box-shadow: none !important;
+}
+
 /* Media queries for larger screens */
-@media (min-width: 576px) {
-  /* Styles for small devices */
+@media (min-width: 320px) {
+  .elementor-section {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -100,10 +129,11 @@
 }
 
 @media (min-width: 992px) {
-  /* .lg-screens {
+
+  .elementor-section {
     padding-right: 18.5rem !important;
     padding-left: 18.5rem !important;
-  } */
+  }
 }
 
 @media (min-width: 1200px) {
